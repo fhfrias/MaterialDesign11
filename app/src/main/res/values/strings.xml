@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Material11</string>
+    <string name="menu1_1">BIOGRAFIA</string>
+    <string name="menu1_2">ESCULTURA</string>
+    <string name="menu1_3">PINTURA</string>
+    <string name="menu1_4">ARQUITECTURA</string>
+    <string name="segundo">OPCIONES</string>
+    <string name="menu2_1">AYUDA</string>
+    <string name="menu2_2">BÚSQUEDA</string>
+    <string name="menu2_3">SALIDA</string>
+</resources>

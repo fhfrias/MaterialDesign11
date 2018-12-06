@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/biografia"
+            android:title="@string/menu1_1" />
+        <item
+            android:id="@+id/nav_productos"
+            android:icon="@drawable/escultura"
+            android:title="@string/menu1_2" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/pintura"
+            android:title="@string/menu1_3" />
+        <item
+            android:id="@+id/nav_ordenes"
+            android:icon="@drawable/arquitectura"
+            android:title="@string/menu1_4" />
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/opciones"
+            android:title="@string/segundo">
+            <menu>
+                <item
+                    android:id="@+id/ayuda"
+                    android:icon="@android:drawable/ic_menu_help"
+                    android:title="@string/menu2_1" />
+                <item
+                    android:id="@+id/busqueda"
+                    android:icon="@android:drawable/ic_menu_compass"
+                    android:title="@string/menu2_2" />
+                <item
+                    android:id="@+id/salida"
+                    android:icon="@android:drawable/ic_lock_power_off"
+                    android:title="@string/menu2_3" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
